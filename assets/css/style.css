@@ -1,0 +1,33 @@
+
+
+body {
+    background-color: #808080;
+}
+
+.jumbotron {
+    background-image: linear-gradient(to bottom, #192A3D, #e2e2e286);
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #000 2px 2px;
+}
+
+.card-body {
+    padding: 1%;
+}
+
+.card-header {
+    background-color: #3a4858;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #990000;
+    border: none;
+}
+
+.row {
+    margin-left: 0px;
+}
