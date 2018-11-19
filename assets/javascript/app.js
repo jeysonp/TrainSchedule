@@ -13,7 +13,7 @@ firebase.initializeApp(config);
 
 var database = firebase.database();
 
-$("#submitBtn").click(function(){
+$("#submitBtn").on("click",function(event) {
   event.preventDefault();
 
   var trainName = $("#trainName").val().trim();
@@ -33,8 +33,9 @@ $("#submitBtn").click(function(){
   $("#trainName").val("");
   $("#destination").val("");
   $("#firstTime").val("");
-  $("#frequency").val("");    
+  $("#frequency").val("");   
 });
+
 
 // database.ref().on("child_added", function(childSnapshot) {
 //   trainName = childSnapshot.val().trainName;
